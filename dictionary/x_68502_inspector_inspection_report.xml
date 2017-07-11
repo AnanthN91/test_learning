@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inspection Report" max_length="40" name="x_68502_inspector_inspection_report" type="collection">
+        <element label="Attraction Id" max_length="40" name="attraction_id" type="string"/>
+        <element label="Drawing Nbr Revision" max_length="40" name="drawing_nbr_revision" type="string"/>
+        <element label="Inspection Close Date" max_length="40" name="inspection_close_date" type="glide_date_time"/>
+        <element display="true" label="Inspection Report Number" max_length="40" name="inspection_report_number" type="string"/>
+        <element label="Inspection Start Date" max_length="40" name="inspection_start_date" type="glide_date_time"/>
+        <element label="Inspector User Id" max_length="40" name="inspector_user_id" reference="sys_user" type="reference"/>
+        <element label="Last Updated By" max_length="40" name="last_updated_by" reference="sys_user" type="reference"/>
+        <element label="Last Updated On" max_length="40" name="last_updated_on" type="glide_date_time"/>
+        <element label="Last Update Date" max_length="40" name="last_update_date" type="glide_date_time"/>
+        <element label="New Serial Flag" max_length="40" name="new_serial_flag" type="boolean"/>
+        <element label="Notes" max_length="40" name="notes" type="string"/>
+        <element label="Order Tracking Nbr" max_length="40" name="order_tracking_nbr" type="string"/>
+        <element label="Order Tracking Type" max_length="40" name="order_tracking_type" type="string"/>
+        <element label="Part Number" max_length="40" name="part_number" type="string"/>
+        <element label="Part Supplier ID" max_length="40" name="part_supplier_id" type="string"/>
+        <element label="QC User Id" max_length="40" name="qc_user_id" reference="sys_user" type="reference"/>
+        <element label="Quantity Accepted" max_length="40" name="quantity_accepted" type="string"/>
+        <element label="Quantity Inspected" max_length="40" name="quantity_inspected" type="string"/>
+        <element label="Quantity Received" max_length="40" name="quantity_received" type="string"/>
+        <element label="Quantity Rejected" max_length="40" name="quantity_rejected" type="string"/>
+    </element>
+</database>
